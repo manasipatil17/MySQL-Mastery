@@ -1,0 +1,13 @@
+//Get employees whose names start with the letter 'R'
+
+select * from employee where name like 'r%';
+
+O/P :-
++-----+------+--------+-----------+
+| id  | name | salary | country   |
++-----+------+--------+-----------+
+| 101 | ram  |  40000 | Australia |
+| 104 | raj  |  43000 | Africa    |
+| 106 | riya |   NULL | India     |
+| 107 | ram  |  34000 | China     |
++-----+------+--------+-----------+
