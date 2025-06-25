@@ -1,0 +1,16 @@
+//Sort employees by salary in descending order.
+
+select * from employee order by salary desc;
+
+O/P :-
++-----+--------+--------+-----------+
+| id  | name   | salary | country   |
++-----+--------+--------+-----------+
+| 102 | manasi |  50000 | India     |
+| 103 | sita   |  50000 | England   |
+| 104 | raj    |  43000 | Africa    |
+| 101 | ram    |  40000 | Australia |
+| 107 | ram    |  34000 | China     |
+| 105 | gita   |  25000 | China     |
+| 106 | riya   |   NULL | India     |
++-----+--------+--------+-----------+
