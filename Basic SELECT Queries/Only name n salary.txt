@@ -1,0 +1,16 @@
+//Retrieve only the name and salary from Employees.
+
+ SELECT name, salary FROM employee;
+
+O/P :-
++--------+--------+
+| name   | salary |
++--------+--------+
+| ram    |  40000 |
+| manasi |  50000 |
+| sita   |  50000 |
+| raj    |  43000 |
+| gita   |  25000 |
+| riya   |   NULL |
+| ram    |  34000 |
++--------+--------+
