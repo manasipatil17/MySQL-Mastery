@@ -1,0 +1,14 @@
+//Select employees whose salary is greater than 25000.
+
+ Select * from employee where salary>25000;
+
+O/P :-
++-----+--------+--------+-----------+
+| id  | name   | salary | country   |
++-----+--------+--------+-----------+
+| 101 | ram    |  40000 | Australia |
+| 102 | manasi |  50000 | India     |
+| 103 | sita   |  50000 | England   |
+| 104 | raj    |  43000 | Africa    |
+| 107 | ram    |  34000 | China     |
++-----+--------+--------+-----------+
