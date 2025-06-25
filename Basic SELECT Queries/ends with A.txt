@@ -1,0 +1,13 @@
+//Get employees whose names end with 'a'.
+
+ select * from employee where name like '%a';
+
+O/P :-
+
++-----+------+--------+---------+
+| id  | name | salary | country |
++-----+------+--------+---------+
+| 103 | sita |  50000 | England |
+| 105 | gita |  25000 | China   |
+| 106 | riya |   NULL | India   |
++-----+------+--------+---------+
