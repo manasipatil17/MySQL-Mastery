@@ -1,0 +1,18 @@
+//Get distinct names from Employees.
+
+select distinct name from employee;
+
+O/P :-
++--------+
+| name   |
++--------+
+| manasi |
+| ram    |
+| ravi   |
+| sai    |
+| raj    |
+| om     |
+| divya  |
+| ansh   |
+| anu    |
++--------+
