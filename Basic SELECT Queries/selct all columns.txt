@@ -1,0 +1,16 @@
+// SELECT all columns from Employee tables
+
+SELECT * FROM Employee;
+
+O/P :-
++-----+--------+--------+-----------+
+| id  | name   | salary | country   |
++-----+--------+--------+-----------+
+| 101 | ram    |  40000 | Australia |
+| 102 | manasi |  50000 | India     |
+| 103 | sita   |  50000 | England   |
+| 104 | raj    |  43000 | Africa    |
+| 105 | gita   |  25000 | China     |
+| 106 | riya   |   NULL | India     |
+| 107 | ram    |  34000 | China     |
++-----+--------+--------+-----------+
