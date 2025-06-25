@@ -1,0 +1,12 @@
+//Get the list of employees belongs to 'india'.
+
+select * from employee where country='India';
+
+O/P :-
+
++-----+--------+--------+---------+
+| id  | name   | salary | country |
++-----+--------+--------+---------+
+| 102 | manasi |  50000 | India   |
+| 106 | riya   |   NULL | India   |
++-----+--------+--------+---------+
