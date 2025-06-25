@@ -1,0 +1,10 @@
+//Find employees with NULL values in the drivingLicence column.
+
+ select * from Employee where drivingLicence is null;
+
+O/P :-
++-------+------+--------------+----------------+------------+-----+
+| regId | name | adhar_No     | drivingLicence | DOB        | age |
++-------+------+--------------+----------------+------------+-----+
+|    13 | anu  | 634322034454 | NULL           | 2003-12-23 |  22 |
++-------+------+--------------+----------------+------------+-----+
