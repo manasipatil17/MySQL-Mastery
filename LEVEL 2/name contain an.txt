@@ -1,0 +1,10 @@
+Get records where employee name contains 'an'.
+
+ select * from employee where name like '%an%';
+
+o/p :-
++-----+--------+--------+---------+
+| id  | name   | salary | country |
++-----+--------+--------+---------+
+| 102 | manasi |  50000 | India   |
++-----+--------+--------+---------+
