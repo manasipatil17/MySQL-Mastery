@@ -1,0 +1,10 @@
+//Select employees with name length greater than 5 characters.
+
+select * from employee where length(name)>5;
+
+O/P :-
++-----+--------+--------+---------+
+| id  | name   | salary | country |
++-----+--------+--------+---------+
+| 102 | manasi |  50000 | India   |
++-----+--------+--------+---------+
