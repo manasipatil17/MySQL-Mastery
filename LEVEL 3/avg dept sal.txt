@@ -1,0 +1,14 @@
+// Find average salary per department where average salary > 30000.
+
+ select department, avg(salary) from empOp group by department having avg(salary)>30000;
+
+o/p :-
++------------+--------------+
+| department | avg(salary)  |
++------------+--------------+
+| HR         | 46500.000000 |
+| IT         | 65666.666667 |
+| Finance    | 57500.000000 |
+| Sales      | 53000.000000 |
+| Marketing  | 50000.000000 |
++------------+--------------+
