@@ -1,0 +1,14 @@
+//Get total salary paid by each department (use GROUP BY).
+
+ select department, sum(salary) from empOp group by department;
+
+o/p :-
++------------+-------------+
+| department | sum(salary) |
++------------+-------------+
+| HR         |    93000.00 |
+| IT         |   197000.00 |
+| Finance    |   115000.00 |
+| Sales      |   106000.00 |
+| Marketing  |    50000.00 |
++------------+-------------+
