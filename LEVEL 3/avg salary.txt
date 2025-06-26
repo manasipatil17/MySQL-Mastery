@@ -1,0 +1,11 @@
+//Get the average salary of employees.
+
+select avg(salary) from employee;
+
+o/p:-
++-------------+
+| avg(salary) |
++-------------+
+|  40333.3333 |
++-------------+
+1 row in set (0.00 sec)
