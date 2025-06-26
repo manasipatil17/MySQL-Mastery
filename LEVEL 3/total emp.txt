@@ -1,0 +1,10 @@
+// Find the total number of employees.
+
+select count(*) from employee;
+
+o/p :-
++----------+
+| count(*) |
++----------+
+|        7 |
++----------+
