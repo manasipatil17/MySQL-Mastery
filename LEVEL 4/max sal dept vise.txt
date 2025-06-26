@@ -1,0 +1,14 @@
+//Group employees by department and show max salary in each.
+
+select department, max(salary) from empOp group by department;
+
+o/p :-
++------------+-------------+
+| department | max(salary) |
++------------+-------------+
+| HR         |    48000.00 |
+| IT         |    75000.00 |
+| Finance    |    58000.00 |
+| Sales      |    54000.00 |
+| Marketing  |    50000.00 |
++------------+-------------+
