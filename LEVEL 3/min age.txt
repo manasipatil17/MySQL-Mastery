@@ -1,0 +1,10 @@
+//Find the lowest age among all employees.
+
+ select min(age) from personaldata;
+
+o/p :-
++----------+
+| min(age) |
++----------+
+|       20 |
++----------+
