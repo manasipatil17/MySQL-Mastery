@@ -1,0 +1,13 @@
+// Retrieve employees who live in 'africa', 'england', 'china'.
+
+ select * from employee where country in ('africa', 'england','china');
+
+
++-----+------+--------+---------+
+| id  | name | salary | country |
++-----+------+--------+---------+
+| 103 | sita |  50000 | England |
+| 104 | raj  |  43000 | Africa  |
+| 105 | gita |  25000 | China   |
+| 107 | ram  |  34000 | China   |
++-----+------+--------+---------+
