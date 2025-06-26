@@ -1,0 +1,14 @@
+//Find employees who are not from "China" department.
+
+select * from employee where country!='china';
+
+O/P:-
++-----+--------+--------+-----------+
+| id  | name   | salary | country   |
++-----+--------+--------+-----------+
+| 101 | ram    |  40000 | Australia |
+| 102 | manasi |  50000 | India     |
+| 103 | sita   |  50000 | England   |
+| 104 | raj    |  43000 | Africa    |
+| 106 | riya   |   NULL | India     |
++-----+--------+--------+-----------+
