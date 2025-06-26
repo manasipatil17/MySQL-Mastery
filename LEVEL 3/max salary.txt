@@ -1,0 +1,10 @@
+//Find the highest salary in the company.
+
+select max(salary) from employee;
+
+o/p :-
++-------------+
+| max(salary) |
++-------------+
+|       50000 |
++-------------+
