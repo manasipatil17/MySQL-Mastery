@@ -1,0 +1,14 @@
+//Count the number of employees in each department
+
+ select department, count(*) as empCount from empOp group by department;
+
+O/P :-
++------------+----------+
+| department | empCount |
++------------+----------+
+| HR         |        2 |
+| IT         |        3 |
+| Finance    |        2 |
+| Sales      |        2 |
+| Marketing  |        1 |
++------------+----------+

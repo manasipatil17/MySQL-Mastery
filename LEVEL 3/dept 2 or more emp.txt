@@ -1,0 +1,8 @@
+//Get departments with more than 2 employees.
+
+ select department, count(*) as emp from empOp group by department having emp>2;
++------------+-----+
+| department | emp |
++------------+-----+
+| IT         |   3 |
++------------+-----+
