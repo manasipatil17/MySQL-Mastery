@@ -1,0 +1,22 @@
+// Get all employees and all departments (FULL OUTER JOIN simulation using UNION).
+
+ select e.id, e.name,d.dept_name from empjoins e left join deptjoins d on e.dept_id=d.id
+    -> union
+    -> select e.id, e.name,d.dept_name from empjoins e right join deptjoins d on e.dept_id=d.id;
+
+o/p :-
++------+---------+-----------+
+| id   | name    | dept_name |
++------+---------+-----------+
+|  101 | Alice   | HR        |
+|  102 | Bob     | IT        |
+|  103 | Charlie | Finance   |
+|  104 | David   | IT        |
+|  105 | Eve     | Sales     |
+|  106 | Frank   | Sales     |
+|  107 | Grace   | Finance   |
+|  108 | Hannah  | HR        |
+|  109 | Ivan    | NULL      |
+|  110 | Julia   | Marketing |
++------+---------+-----------+
+10 rows in set (0.00 sec)
