@@ -1,6 +1,6 @@
-//Get list of employees with their department name (INNER JOIN).
+//Show all departments even if no employee is assigned (LEFT JOIN).
 
-select e.name,d.dept_name from empjoins e inner join deptjoins d on e.dept_id=d.id;
+select e.name ,  d.dept_name from deptjoins d left join empjoins e on e.dept_id=d.id;
 
 o/p :-
 +---------+-----------+
