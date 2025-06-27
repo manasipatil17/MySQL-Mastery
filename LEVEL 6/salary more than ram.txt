@@ -1,0 +1,9 @@
+//Find employees whose salary is greater than salary of employee 'Raj'.
+
+select * from employee where salary > (select salary from employee where name= 'raj');
++-----+--------+--------+---------+
+| id  | name   | salary | country |
++-----+--------+--------+---------+
+| 102 | manasi |  50000 | India   |
+| 103 | sita   |  50000 | England |
++-----+--------+--------+---------+
