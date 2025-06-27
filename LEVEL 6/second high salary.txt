@@ -1,0 +1,9 @@
+//Get the employee(s) with the second highest salary.
+
+ select * from employee where salary = (select max(salary) from employee where salary < (select max(salary) from employee));
++-----+------+--------+---------+
+| id  | name | salary | country |
++-----+------+--------+---------+
+| 104 | raj  |  43000 | Africa  |
++-----+------+--------+---------+
+1 row in set (0.00 sec)
