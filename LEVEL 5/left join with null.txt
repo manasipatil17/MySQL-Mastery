@@ -1,0 +1,11 @@
+//Find employees who don’t belong to any department (LEFT JOIN with NULL check).
+
+ select e.id, e.name from empjoins e left join deptjoins d on e.dept_id=d.id  where e.dept_id is null;
+
+o/p :-
++-----+------+
+| id  | name |
++-----+------+
+| 109 | Ivan |
++-----+------+
+1 row in set (0.00 sec)
