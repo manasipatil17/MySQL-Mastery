@@ -1,0 +1,15 @@
+Get the number of employees in each department using JOIN.
+
+select d.dept_name, count(e.id) from deptjoins d left join empjoins e on e.dept_id=d.id group by dept_name;
+
+o/p :-
++-----------+-------------+
+| dept_name | count(e.id) |
++-----------+-------------+
+| HR        |           2 |
+| IT        |           2 |
+| Finance   |           2 |
+| Sales     |           2 |
+| Marketing |           1 |
++-----------+-------------+
+5 rows in set (0.00 sec)
