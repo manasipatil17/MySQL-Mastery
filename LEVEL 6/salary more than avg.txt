@@ -1,0 +1,11 @@
+//Get the names of employees who earn more than the average salary.
+
+select name from employee where salary > ( select avg(salary) from employee);
++--------+
+| name   |
++--------+
+| manasi |
+| sita   |
+| raj    |
++--------+
+3 rows in set (0.01 sec)
