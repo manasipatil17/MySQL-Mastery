@@ -1,0 +1,19 @@
+// Update salary of all employees by 10%
+
+ update employee set salary=salary*1.10;
+Query OK, 6 rows affected (0.03 sec)
+Rows matched: 7  Changed: 6  Warnings: 0
+
+mysql> select * from employee;
++-----+--------+--------+-----------+
+| id  | name   | salary | country   |
++-----+--------+--------+-----------+
+| 101 | ram    |  44000 | Australia |
+| 102 | manasi |  55000 | India     |
+| 103 | sita   |  55000 | England   |
+| 104 | raj    |  47300 | Africa    |
+| 105 | gita   |  27500 | China     |
+| 106 | riya   |   NULL | India     |
+| 107 | ram    |  37400 | China     |
++-----+--------+--------+-----------+
+7 rows in set (0.00 sec)
