@@ -1,0 +1,6 @@
+//Find employees who joined in the last 6 months.
+
+SELECT *
+FROM employees
+WHERE join_date >= CURRENT_DATE - INTERVAL 6 MONTH;
+
