@@ -1,0 +1,5 @@
+
+//Get employees with birthdays in the current month.
+
+ select * from personaldata where month(dob)=month(curdate());
+Empty set (0.00 sec)
