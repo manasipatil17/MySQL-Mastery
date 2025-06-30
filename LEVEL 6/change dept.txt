@@ -1,0 +1,11 @@
+//Change department of employees named 'Alice' to 'HR'.
+
+UPDATE employees SET department = 'HR' WHERE name = 'Alice';
+
+OR
+
+UPDATE employees
+SET dept_id = (
+    SELECT dept_id FROM departments WHERE department_name = 'HR'
+)
+WHERE name = 'Alice';
