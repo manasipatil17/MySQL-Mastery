@@ -1,0 +1,17 @@
+// Show employee names and the number of years they’ve worked (based on join_date).
+
+ select name, timestampdiff(year, join_date,curdate()) as year_worked from employee;
++--------+-------------+
+| name   | year_worked |
++--------+-------------+
+| manasi |          20 |
+| ravi   |          26 |
+| sai    |          24 |
+| raj    |          21 |
+| om     |          23 |
+| divya  |          22 |
+| ansh   |          22 |
+| anu    |          21 |
+| anu    |          21 |
++--------+-------------+
+9 rows in set (0.00 sec)
