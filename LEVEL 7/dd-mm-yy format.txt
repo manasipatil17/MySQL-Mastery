@@ -1,0 +1,21 @@
+          
+//Format the join date as dd-mm-yyyy in your result.
+
+
+          SELECT name,
+          DATE_FORMAT(dob, '%d-%m-%Y')
+          AS formatted_join_date from personaldata;
++--------+---------------------+
+| name   | formatted_join_date |
++--------+---------------------+
+| manasi | 17-07-2004          |
+| ravi   | 23-04-1999          |
+| sai    | 21-03-2001          |
+| raj    | 04-02-2004          |
+| om     | 31-05-2002          |
+| divya  | 23-04-2003          |
+| ansh   | 04-11-2002          |
+| anu    | 23-12-2003          |
+| anu    | 23-12-2003          |
++--------+---------------------+
+9 rows in set (0.00 sec)
